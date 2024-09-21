@@ -24,22 +24,24 @@
 				</p>
 			</summary>
 		</header>
+		<input id="search" type="text" placeholder="Search" />
 		<main></main>
-		<template id="content-pack-template">
+		<div id="content-pack-template">
 			<article>
-				<h2><span id="replace-with-pack-name"></span></h2>
-				<div class="pack-preview"></div>
+				<h2><span data-pack-name></span></h2>
+				<div data-pack-preview></div>
 				<div class="pack-authors">
 					<h3>Authors</h3>
-					<ul class="insert-authors"></ul>
+					<ul data-authors></ul>
 				</div>
-				<p class="pack-source"></p>
-				<p class="pack-description"></p>
+				<p data-source></p>
+				<p data-description></p>
 				<p class="pack-url-wrapper">
-					<input class="pack-url" />
 					<button class="pack-copy-button">Copy</button>
+					<input data-url readonly />
 				</p>
+				<p data-search></p>
 			</article>
-		</template>
+		</div>
 	</body>
 </html>

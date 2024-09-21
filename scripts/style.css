@@ -1,0 +1,62 @@
+#content-pack-template {
+	display: none;
+}
+
+article {
+	display: grid;
+	grid-template-columns: 1fr 6fr;
+	grid-template-rows: auto auto auto;
+	gap: 1em;
+	padding: 1em;
+	border: 1px solid #ccc;
+	border-radius: 0.5em;
+	display: grid;
+	gap: 0px 0px;
+	grid-template-areas:
+		'Preview Header'
+		'Preview Description'
+		'Preview Authors'
+		'Preview Source'
+		'Preview Link';
+}
+
+article.hidden {
+	display: none;
+}
+
+article > h2 {
+	grid-area: Header;
+}
+
+article > [data-pack-preview] {
+	grid-area: Preview;
+	background-size: cover;
+	background-position: center;
+	min-width: 200px;
+}
+
+article > .pack-authors {
+	grid-area: Authors;
+}
+
+article > [data-source] {
+	grid-area: Source;
+}
+
+article > [data-description] {
+	grid-area: Description;
+}
+
+article > [data-search] {
+	display: none;
+}
+
+article > .pack-url-wrapper {
+	grid-area: Link;
+	display: flex;
+}
+
+article > .pack-url-wrapper > input {
+	flex: 1;
+	flex-grow: 1;
+}
