@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>[[ YOUR REPO NAME HERE ]]</title>
+		<link rel="stylesheet" href="scripts/style.css" />
+		<script src="scripts/script.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<h1>[[ YOUR REPO NAME HERE ]]</h1>
+			<p>[[ YOUR REPO DESCRIPTION HERE ]]]</p>
+			<summary>
+				<legend>How to use</legend>
+				<p>
+					Copy the pack url from the content pack you want to use, and paste it
+					into the search field for content packs in DDDG.
+				</p>
+				<p>
+					<a
+						href="https://github.com/edave64/dddg-repo-template/wiki/installing"
+						>Detailed instructions</a
+					>
+				</p>
+			</summary>
+		</header>
+		<main></main>
+		<template id="content-pack-template">
+			<article>
+				<h2><span id="replace-with-pack-name"></span></h2>
+				<div class="pack-preview"></div>
+				<div class="pack-authors">
+					<h3>Authors</h3>
+					<ul class="insert-authors"></ul>
+				</div>
+				<p class="pack-source"></p>
+				<p class="pack-description"></p>
+				<p class="pack-url-wrapper">
+					<input class="pack-url" />
+					<button class="pack-copy-button">Copy</button>
+				</p>
+			</article>
+		</template>
+	</body>
+</html>

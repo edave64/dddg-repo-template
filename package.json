@@ -1,0 +1,23 @@
+{
+	"name": "dddg-repo-template",
+	"version": "1.0.0",
+	"description": "A template for creating your own dddg content pack repos",
+	"main": "index.js",
+	"scripts": {
+		"update": "node scripts/update.mjs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/edave64/dddg-repo-template.git"
+	},
+	"author": "edave64",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/edave64/dddg-repo-template/issues"
+	},
+	"homepage": "https://github.com/edave64/dddg-repo-template#readme",
+	"dependencies": {
+		"prettier": "^3.3.3",
+		"prettier-plugin-organize-imports": "^4.0.0"
+	}
+}

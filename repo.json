@@ -1,0 +1,117 @@
+{
+	"authors": {
+		"lecraftx9": {},
+		"StormBlazed76": {
+			"discord": "Storm Blaze#7530",
+			"reddit": "StormBlazed76"
+		},
+		"CPG Yuri": {
+			"reddit": "reckonusm"
+		},
+		"Aj the Funky": {},
+		"DiegEx": {},
+		"ZoraZac": {},
+		"El Taco": {},
+		"Dr. Daynaze": {},
+		"Prox": {
+			"discord": "Prox#9492",
+			"reddit": "Proxyl_"
+		},
+		"anita6artania": {
+			"reddit": "anita6artania"
+		}
+	},
+	"packs": [
+		{
+			"authors": [
+				"lecraftx9"
+			],
+			"characters": [
+				"Sayori"
+			],
+			"description": "",
+			"id": "dark_sayori.lecraftx9.edave64",
+			"name": "Dark Sayori",
+			"kind": [
+				"Styles"
+			],
+			"preview": [
+				"./3a.png"
+			],
+			"source": "https://www.reddit.com/r/DDLCMods/comments/19cc4jq/commission_made_by_zachattack92217_free_use/",
+			"dddg2Path": "./index.json"
+		},
+		{
+			"authors": [
+				"StormBlazed76",
+				"CPG Yuri",
+				"Aj the Funky",
+				"DiegEx",
+				"ZoraZac",
+				"El Taco",
+				"Dr. Daynaze"
+			],
+			"characters": [
+				"Girlfriend"
+			],
+			"dddg2Path": "./index.json",
+			"description": "Commissioned and owned by CPG Yuri, created by Storm Blaze, <a href=\"https://gamebanana.com/mods/43037\">GF idle/sit stickers</a> by Aj the Funky, <a href=\"https://gamebanana.com/mods/307184\">GF stickers</a> by DiegEx & ZoraZac, Crazy GF sticker by El Taco & Dr. Daynaze edited by CPG Yuri, FNF by ninja_muffin99, phantomarcade3k, evilsk8r and kawaisprite",
+			"id": "fnf.girlfriend.storm_blaze.edave64",
+			"kind": [
+				"Characters",
+				"Sprites"
+			],
+			"name": "Girlfriend",
+			"preview": [
+				"./1l.png",
+				"./1r.png",
+				"./a.png"
+			],
+			"searchWords": [],
+			"source": "https://www.reddit.com/r/DDLCMods/comments/phkx3g/"
+		},
+		{
+			"authors": [
+				"Prox"
+			],
+			"characters": [
+				"Himari"
+			],
+			"dddg2Path": "http://localhost:4716/repo/himari.prox.edave64/index.json",
+			"description": "<a href=\"https://www.reddit.com/soqntz/\">Created</a> by <a href=\"https://www.reddit.com/user/Proxyl_\">Prox</a>",
+			"id": "himari.prox.edave64",
+			"kind": [
+				"Characters"
+			],
+			"name": "Himari",
+			"preview": [
+				"http://localhost:4716/repo/himari.prox.edave64/pose1/1.png",
+				"http://localhost:4716/repo/himari.prox.edave64/pose1/a.png"
+			],
+			"searchWords": [],
+			"source": "https://www.reddit.com/r/DDLCMods/comments/16pm909"
+		},
+		{
+			"authors": [
+				"anita6artania"
+			],
+			"characters": [
+				"MC (Slim)"
+			],
+			"dddg2Path": "./index.json",
+			"description": "<a href='https://www.reddit.com/dq74jr' target='_blank' rel='noopener noreferrer'>Created by</a> anita6artania",
+			"id": "mc.anita6artania.edave64",
+			"kind": [
+				"Characters"
+			],
+			"name": "MC",
+			"preview": [
+				"./faces_red/a.png",
+				"./1l.png",
+				"./1r.png"
+			],
+			"searchWords": [],
+			"source": "https://www.reddit.com/dq74jr"
+		}
+	]
+}
